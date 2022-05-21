@@ -252,21 +252,21 @@ margin-left: 93px;
 
 /* Блок загальної інформації */
 
-.specific-work {
+.features-work {
     margin: 0 auto;
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.specific-work__list {
+.features-work__list {
     display: flex;
 }
 
-.specific-work__item:not(:first-child) {
+.features-work__item:not(:first-child) {
     margin-left: 30px;   
 }
 
-.specific-work__background {
+.features-work__background {
     border: none;
     display: block;
     width: 270px;
@@ -275,11 +275,11 @@ margin-left: 93px;
     margin-bottom: 30px;
 }
 
-.specific-work__icon {
+.features-work__icon {
     margin: 25px 100px;
 }
 
-.specific-work__title {
+.features-work__title {
     margin-bottom: 10px;
 
     color: var(--title-text-color);
@@ -290,7 +290,7 @@ margin-left: 93px;
     text-transform: uppercase;
 }
 
-.specific-work__text {
+.features-work__text {
     width: 270px;
     height: 75px;
 
@@ -300,34 +300,41 @@ margin-left: 93px;
     letter-spacing: 0.03em;
 }
 
-/* Зображення */
+/* Продукція */
 
-.work-details {
+.production {
     margin: 0 auto;
     padding-bottom: 94px;
 }
 
-.work-details__title {
+.production__title {
     margin-bottom: 50px;
+
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
-.work-details__list {
+.production__list {
     display: flex;
     margin: 0 auto;
 }
 
-.work-details__item:not(:first-child) {
+.production__item:not(:first-child) {
     margin-left: 30px;
 }
 
-.work-details__item {
+.production__item {
     position: relative;
     display: inline-block;
     width: 370px;
     height: 294px;
 }
 
-.work-details__text {
+.production__text {
     position: absolute;
     display: flex;
     bottom: 0;
@@ -365,7 +372,6 @@ margin-left: 93px;
     margin: 0 auto 50px;
 }
 
-.work-details__title,
 .workers__title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -948,7 +954,7 @@ address {
     margin-bottom: 0px;
 }
 
-.poster-list__item:hover .poster-description {
+.poster-list__item:hover .poster-list__description {
     opacity: 1;
 }
 
